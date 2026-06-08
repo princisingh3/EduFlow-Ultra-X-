@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0ea5e9"/>
+      <stop offset="100%" stop-color="#2563eb"/>
+    </linearGradient>
+
+    <linearGradient id="glow" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ffffff"/>
+      <stop offset="100%" stop-color="#cbd5e1"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="512" height="512" rx="100" fill="url(#bg)"/>
+
+  <!-- Outer Circle -->
+  <circle cx="256" cy="256" r="150"
+          fill="none"
+          stroke="rgba(255,255,255,0.3)"
+          stroke-width="12"/>
+
+  <!-- Graduation Cap -->
+  <polygon points="256,130 120,200 256,270 392,200"
+           fill="url(#glow)"/>
+
+  <rect x="185" y="250"
+        width="142"
+        height="60"
+        rx="10"
+        fill="#ffffff"/>
+
+  <!-- Book -->
+  <path d="M180 330
+           Q256 290 332 330
+           L332 390
+           Q256 350 180 390 Z"
+        fill="#ffffff"/>
+
+  <!-- E Letter -->
+  <text x="256"
+        y="455"
+        font-size="80"
+        font-family="Poppins, Arial"
+        font-weight="700"
+        text-anchor="middle"
+        fill="#ffffff">
+    E
+  </text>
+</svg>
